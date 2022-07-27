@@ -1,0 +1,20 @@
+<h2>Ng for JSON, INTERFACE</h2>
+
+<div class="table-wrapper">
+  <table class="fl-table">
+    <thead>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Gender</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of students">
+        <td>{{ student.id }}</td>
+        <td>{{ student.name }}</td>
+        <td>{{ student.gender }}</td>
+        <td>{{ student.email }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
